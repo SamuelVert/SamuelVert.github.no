@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dio page</title>
+</head>
+<main>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=PT+Serif&display=swap" rel="stylesheet">
+
+<!-- Classi e id varie stilizzate -->
+
+<style>
+      
+.titolo1 {
+    color: darkgoldenrod; font-family:architects daughter ,monospace; font-size:50px; text-align: center;
+}
+#title {
+    color: darkgoldenrod; font-family:architects daughter ,monospace; font-size:50px; text-align: center; background-color: rgba(45, 45, 45, 0.1)
+}
+
+.immagineridotta {
+    width: 300px; height: 150px;  border-radius: 10px; border-color: darkblue; border-style: groove; box-shadow: 0.2mm gray; 
+}
+.testobianco {
+    color: rgb(207, 183, 183);
+}
+body{
+    background-color: black;
+}
+.bordo{
+    border: 1px solid linear-gradient(35deg, #d0df07, #35a326);
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    width: 1000px;
+ 
+}
+#img-caption{
+    font-size: small;
+    color: rgb(207, 183, 183);
+    text-align: center;
+}
+#line{
+color: darkorange;
+}
+#paragrafi{
+    font-size: 30px;
+    color: rgb(207, 183, 183)
+}
+#image{
+    box-shadow: 0 10px 20px rgba(27, 27, 27, 0.19), 0 6px 6px rgba(0,0,0,0.23); position: relative; left: 12cm; top: 10px; ;
+      
+}
+#tribute-info {
+    border: 3px solid rgb(180, 155, 10);
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    width: 1000px;
+    color: rgb(207, 183, 183); margin: auto;
+    line-height: 20px;}
+#img-caption{
+    border: dimgray; 
+}
+
+
+
+</style>
+
+ <!--  -->
+
+<!-- Testo e immagini -->
+
+<div>
+<body>
+    <h1 id="title"> DIO BRANDO'S CRIB </h1> 
+
+    <h2 class="testobianco" id="paragrafi"> Who is <em>Dio Brando?</em> </h2>
+
+    <hr id="line">
+
+    <p class="testobianco bordo" id="tribute-info">  
+       <strong> Dio Brando </strong> (Japanese: ディオ・ブランドー, Hepburn: Dio Burandō) is a fictional character appearing in JoJo's Bizarre Adventure, 
+        a Japanese manga series written and illustrated by Hirohiko Araki. He is the main antagonist of the series' first part, Phantom Blood, appearing in the debut chapter "Dio the Invader", and has the role of main antagonist during the third part of the series as well, Stardust Crusaders.
+       
+        <a class="testobianco" href="https://en.wikipedia.org/wiki/Dio_Brando" target="_blank" id="tribute-link"> <u> (Source)</u></a>
+
+    </p> 
+
+    <div id="img-div">
+    <img id="image" class="immagineridotta testonero" alt="Dio Brando che ride dinanzi uno schermo" src="https://taverna42.files.wordpress.com/2018/09/maxresdefault-1.jpg?w=1280&h=720&crop=1">
+<p id="img-caption"> Dio's looking at a camera, in one of his most memorable quotes "It was me, DIO!" (Kono Dio da!)</p>
+</div>
+
+<h3 id="paragrafi" class="testobianco"> Why we remember <em>Dio</em> </h3>
+
+<hr id="line">
+
+<p id="tribute-info"> Dio became an especially beloved villain among the fandom because of his over-the-top personality, aestethics, character, notable quotes, and especially the incredible voice acting his charector got during the anime adaptation resulting in many memes and further spread of popularity.</p>
+
+
+</div>
+
+    <div class="title">
+        <div class="immagineridotta">
+            <div class="testobianco">
+                <div class="bordo">
+<div class="tribute-info"> 
+</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+</main>
+</html>
